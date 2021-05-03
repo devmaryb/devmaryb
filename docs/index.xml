@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>devmaryb&#39;s Netscaler blog</title>
-    <link>https://devmaryb.github.io/devmaryb/</link>
+    <link>http://devmaryb.github.io/devmaryb/</link>
     <description>Recent content on devmaryb&#39;s Netscaler blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 03 May 2021 18:25:19 +0200</lastBuildDate><atom:link href="https://devmaryb.github.io/devmaryb/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 03 May 2021 18:25:19 +0200</lastBuildDate><atom:link href="http://devmaryb.github.io/devmaryb/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>VPNUsersConnected</title>
-      <link>https://devmaryb.github.io/devmaryb/posts/vpnusersconnected/</link>
+      <link>http://devmaryb.github.io/devmaryb/posts/vpnusersconnected/</link>
       <pubDate>Mon, 03 May 2021 18:25:19 +0200</pubDate>
       
-      <guid>https://devmaryb.github.io/devmaryb/posts/vpnusersconnected/</guid>
+      <guid>http://devmaryb.github.io/devmaryb/posts/vpnusersconnected/</guid>
       <description>Hello World :-)</description>
     </item>
     
