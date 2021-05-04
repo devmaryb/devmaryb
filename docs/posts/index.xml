@@ -6,14 +6,16 @@
     <description>Recent content in Posts on devmaryb&#39;s Netscaler blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 03 May 2021 18:25:19 +0200</lastBuildDate><atom:link href="http://devmaryb.github.io/devmaryb/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 24 Mar 2021 15:15:58 +0100</lastBuildDate><atom:link href="http://devmaryb.github.io/devmaryb/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>VPNUsersConnected</title>
+      <title>Find User that has logged in to a specific Citrix Gateway</title>
       <link>http://devmaryb.github.io/devmaryb/posts/vpnusersconnected/</link>
-      <pubDate>Mon, 03 May 2021 18:25:19 +0200</pubDate>
+      <pubDate>Wed, 24 Mar 2021 15:15:58 +0100</pubDate>
       
       <guid>http://devmaryb.github.io/devmaryb/posts/vpnusersconnected/</guid>
-      <description>Hello World :-)</description>
+      <description>Today I wanted to turn off a specific Citrix Gateway on Netscaler cause I thought it would not be needed anymore. On the first view there were still a lot of users connected to the vpn vserver so simply turning it off would through them all out and was therefore not an option.
+On the first sight the GUI you can see how many users are connected.
+But when looking on ICA Connections/DTLS ICA Connections/Active Sessions you see the Backend Server the Client is connected to or the Intranet IP and Application.</description>
     </item>
     
   </channel>
