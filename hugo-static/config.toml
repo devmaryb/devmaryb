@@ -2,5 +2,5 @@ baseURL = "http://devmaryb.github.io/devmaryb/"
 languageCode = "en-us"
 title = "devmaryb's Netscaler blog"
 theme = "ananke"
-publishDir = "docs"
+publishDir = "../docs"
 
