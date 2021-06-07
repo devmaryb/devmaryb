@@ -132,16 +132,63 @@
       
       <div class="blah w-100">
         <h1 class="f3 fw1 athelas mt0 lh-title">
-          <a href="http://devmaryb.github.io/devmaryb/posts/vpnusersconnected/" class="color-inherit dim link">
-            Find User that has logged in to a specific Citrix Gateway
+          <a href="http://devmaryb.github.io/devmaryb/posts/netscaler-footer/" class="color-inherit dim link">
+            Add custom text to Citrix Gateway Login Page RfWebUI
             </a>
         </h1>
         <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
-          Today I wanted to turn off a specific Citrix Gateway on Netscaler cause I thought it would not be needed anymore. On the first view there were still a lot of users connected to the vpn vserver so simply turning it off would through them all out and was therefore not an option.
-On the first sight the GUI you can see how many users are connected.
-But when looking on ICA Connections/DTLS ICA Connections/Active Sessions you see the Backend Server the Client is connected to or the Intranet IP and Application.
+          Before using nFactor it was easy to add some footer with Informations and Warnings using Rewrite Policy or editing the index.html/tmindex.html to Citrix Gateway or an Authentication vserver. As soon as we are applying an AuthenticationProfile to a Citrix vserver or using Advanced Authentication Policies for an Authentication vserver this does not work anymore. Now this can be achived by creating a custom portal theme and a custom login schema.
         </div>
-          <a href="http://devmaryb.github.io/devmaryb/posts/vpnusersconnected/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+          <a href="http://devmaryb.github.io/devmaryb/posts/netscaler-footer/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+        
+      </div>
+    </div>
+  </div>
+</article>
+
+          </div>
+        
+          <div class="relative w-100 mb4">
+            
+<article class="bb b--black-10">
+  <div class="db pv4 ph3 ph0-l no-underline dark-gray">
+    <div class="flex flex-column flex-row-ns">
+      
+      <div class="blah w-100">
+        <h1 class="f3 fw1 athelas mt0 lh-title">
+          <a href="http://devmaryb.github.io/devmaryb/posts/googlecapture/" class="color-inherit dim link">
+            Using Google reCapture with Netscaler Authentication
+            </a>
+        </h1>
+        <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
+          Basically this is a pretty easy possibility to check if a real client is trying to login or some bot or automatic script is trying to catch some username and password combination.
+        </div>
+          <a href="http://devmaryb.github.io/devmaryb/posts/googlecapture/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+        
+      </div>
+    </div>
+  </div>
+</article>
+
+          </div>
+        
+          <div class="relative w-100 mb4">
+            
+<article class="bb b--black-10">
+  <div class="db pv4 ph3 ph0-l no-underline dark-gray">
+    <div class="flex flex-column flex-row-ns">
+      
+      <div class="blah w-100">
+        <h1 class="f3 fw1 athelas mt0 lh-title">
+          <a href="http://devmaryb.github.io/devmaryb/posts/ddos-appqoe/" class="color-inherit dim link">
+            Block DDOS Attacks with Netscaler AppQoE
+            </a>
+        </h1>
+        <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
+          To enable HCIResponse you first need to execute on the shell of netscaler
+nsapimgr -ys appqos_captcha=1 To make sure this is persistent of reboots of netscaler you need to add it to the rc.netscaler file to make sure it is executed everytime netscaler starts.
+        </div>
+          <a href="http://devmaryb.github.io/devmaryb/posts/ddos-appqoe/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
         
       </div>
     </div>
@@ -152,6 +199,23 @@ But when looking on ICA Connections/DTLS ICA Connections/Active Sessions you see
         
       </section>
 
+      
+      <section class="w-100">
+        <h1 class="f3">More</h1>
+        
+        
+          <h2 class="f5 fw4 mb4 dib mr3">
+            <a href="http://devmaryb.github.io/devmaryb/posts/vpnusersconnected/" class="link black dim">
+              Find User that has logged in to a specific Citrix Gateway
+            </a>
+          </h2>
+        
+
+        
+        
+          <a href="http://devmaryb.github.io/devmaryb/posts/" class="link db f6 pa2 br3 bg-mid-gray white dim w4 tc">All Posts</a>
+        
+        </section>
       
 
       </div>
