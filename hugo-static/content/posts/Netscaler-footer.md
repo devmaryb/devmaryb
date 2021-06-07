@@ -139,5 +139,7 @@ return $("<div/>");
 ```
 
 References:
+
 <https://docs.citrix.com/en-us/citrix-adc/current-release/aaa-tm/authentication-methods/multi-factor-nfactor-authentication/nfactor-extensibility.html>
+
 <https://www.mycugc.org/blogs/cugc-blogs/2016/12/15/adding-text-links-and-other-elements-to-the-netsca>
