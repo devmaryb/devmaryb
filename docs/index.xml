@@ -17,25 +17,6 @@
     </item>
     
     <item>
-      <title>Using Google reCapture with Netscaler Authentication</title>
-      <link>http://devmaryb.github.io/devmaryb/posts/googlecapture/</link>
-      <pubDate>Tue, 01 Jun 2021 15:22:30 +0200</pubDate>
-      
-      <guid>http://devmaryb.github.io/devmaryb/posts/googlecapture/</guid>
-      <description>Basically this is a pretty easy possibility to check if a real client is trying to login or some bot or automatic script is trying to catch some username and password combination.</description>
-    </item>
-    
-    <item>
-      <title>Block DDOS Attacks with Netscaler AppQoE</title>
-      <link>http://devmaryb.github.io/devmaryb/posts/ddos-appqoe/</link>
-      <pubDate>Thu, 06 May 2021 10:58:12 +0200</pubDate>
-      
-      <guid>http://devmaryb.github.io/devmaryb/posts/ddos-appqoe/</guid>
-      <description>To enable HCIResponse you first need to execute on the shell of netscaler
-nsapimgr -ys appqos_captcha=1 To make sure this is persistent of reboots of netscaler you need to add it to the rc.netscaler file to make sure it is executed everytime netscaler starts.</description>
-    </item>
-    
-    <item>
       <title>Find User that has logged in to a specific Citrix Gateway</title>
       <link>http://devmaryb.github.io/devmaryb/posts/vpnusersconnected/</link>
       <pubDate>Wed, 24 Mar 2021 15:15:58 +0100</pubDate>
